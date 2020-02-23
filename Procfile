@@ -1,1 +1,1 @@
-web: daphne chat_room.asgi:application --port $PORT --bind 0.0.0.0 -v2
+web: daphne chat_room.asgi:application --port 1234 --bind 0.0.0.0 -v2
