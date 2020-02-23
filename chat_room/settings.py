@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'rin0_#+w1g*wf18mibiq6il=^g9opa
 DEBUG = 'False'
 
 # Cookie settings
-# CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = ["*"]
 
