@@ -30,7 +30,7 @@ DEBUG = 'False'
 # Cookie settings
 # CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
